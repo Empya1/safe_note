@@ -16,7 +16,7 @@
 			FitImage: 
 				size_hint: None, None
 				size: "100dp","100dp"
-				source:"empya_logo.png"	
+				source:"/data/data/org.test.notes/files/app/empya_logo.png"	
 				radius: self.width//2
 			
 	MDBoxLayout: 
@@ -28,13 +28,13 @@
 			
 			text:"Created By EmPya"
 			halign:"center"
-			font_name:"profont"
+			font_name:"/data/data/org.test.notes/files/app/profont"
 			
 		MDLabel: 
 			text:"Notes v 2.5.6"
 			halign:"center"
 			adaptive_height:True
-			font_name:"profont"
+			font_name:"/data/data/org.test.notes/files/app/profont"
 			
 	MDGridLayout: 
 		size_hint_y: .2
@@ -172,14 +172,14 @@
 				
 				MDLabel: 
 					text: root.title
-					font_name:"profont"
+					font_name:"/data/data/org.test.notes/files/app/profont"
 				
 			MDBoxLayout:
 				orientation:"vertical"
 				
 				MDLabel: 
 					text: root.date
-					font_name:"profont"
+					font_name:"/data/data/org.test.notes/files/app/profont"
 					
 			MDBoxLayout:
 				orientation:"horizontal"
@@ -238,7 +238,7 @@
 				MDLabel: 
 					adaptive_height:True
 					text: root.title
-					font_name:"profont"
+					font_name:"/data/data/org.test.notes/files/app/profont"
 					
 				
 			MDBoxLayout: 
@@ -250,7 +250,7 @@
 				MDLabel: 
 					text: "Created %s"%(root.date)
 					adaptive_height:True
-					font_name:"profont"
+					font_name:"/data/data/org.test.notes/files/app/profont"
 				
 			MDBoxLayout: 
 				orientation:"vertical"
@@ -261,7 +261,7 @@
 					
 				MDLabel: 
 					adaptive_height:True
-					font_name:"profont"
+					font_name:"/data/data/org.test.notes/files/app/profont"
 					text: root.content
 					halign:"center"
 					multiline:True
@@ -285,7 +285,7 @@ MDNavigationLayout:
 					Rectangle: 
 						size:self.size 
 						pos:self.pos 
-						source:"smoke.jpg"
+						source:"/data/data/org.test.notes/files/app/smoke.jpg"
 				
 				md_bg_color:"#F6F6F6"
 				
@@ -373,7 +373,7 @@ MDNavigationLayout:
 							Rectangle: 
 								pos:self.pos 
 								size:self.size 
-								source:"smoke.jpg"
+								source:"/data/data/org.test.notes/files/app/smoke.jpg"
 				
 						MDBoxLayout: 
 							orientation:"vertical"
@@ -385,7 +385,7 @@ MDNavigationLayout:
 								type_height:"medium"
 								specific_text_color:"white" 
 								right_action_items:[["menu", lambda x:nav.set_state("toggle"), "Navigation Menu"]]
-								specific_font_name:"profont"
+								specific_font_name:"/data/data/org.test.notes/files/app/profont"
 								
 						MDBoxLayout:
 							orientation:"vertical"
@@ -452,7 +452,7 @@ MDNavigationLayout:
 							Rectangle: 
 								size:self.size 
 								pos:self.pos 
-								source:"smoke.jpg"
+								source:"/data/data/org.test.notes/files/app/smoke.jpg"
 								
 						MDBoxLayout: 
 							orientation:"vertical" 
@@ -536,7 +536,7 @@ MDNavigationLayout:
 					Rectangle: 
 						pos:self.pos 
 						size:self.size 
-						source:"smoke.jpg"
+						source:"/data/data/org.test.notes/files/app/smoke.jpg"
 				
 				MDBoxLayout: 
 					orientation:"vertical"
@@ -564,7 +564,7 @@ MDNavigationLayout:
 					Rectangle: 
 						size:self.size 
 						pos:self.pos 
-						source:"smoke.jpg"
+						source:"/data/data/org.test.notes/files/app/smoke.jpg"
 								
 				MDBoxLayout: 
 					orientation:"vertical" 
@@ -592,7 +592,7 @@ MDNavigationLayout:
 					Rectangle: 
 						size:self.size 
 						pos:self.pos 
-						source:"smoke.jpg"
+						source:"/data/data/org.test.notes/files/app/smoke.jpg"
 									
 							
 				MDBoxLayout: 
@@ -670,7 +670,7 @@ MDNavigationLayout:
 					Rectangle: 
 						size:self.size 
 						pos:self.pos 
-						source:"smoke.jpg"
+						source:"/data/data/org.test.notes/files/app/smoke.jpg"
 								
 				MDBoxLayout: 
 					orientation:"vertical" 
