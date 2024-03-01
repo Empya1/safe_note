@@ -372,7 +372,7 @@ class NoteApp(MDApp):
 		#alert(txt)
 		
 			
-		self.db.insert("Notes", [(id, str(title.text), txt, date_and_time, img)])
+		self.db.insert("Notes", [(id, str(title.text), txt, date_and_time, self.path+img)])
 		
 		if len(self.db.select_all("Notes")) == 0: 
 			self.root.ids.sm2.current = "nonoteview"
