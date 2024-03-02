@@ -122,7 +122,7 @@ class NoteApp(MDApp):
 		#self.storage_access = False
 		self.path = "/data/data/org.test.notes/files/app/"
 		#alert("Starting")
-		Notify("Ready", "Ready")
+		#Notify("Ready", "Ready")
 				
 		try:  
 			from android.permissions import request_permissions, Permission 
