@@ -153,7 +153,7 @@ class NoteApp(MDApp):
 		
 		#self.show_notes
 		set_bars_colors(
-		(1,1,1,.5),
+		(0,0,0,.5),
 		(0,0,0,.5),
 		"Light"
 		)
