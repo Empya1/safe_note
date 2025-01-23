@@ -20,6 +20,7 @@ jobs:
           cache: 'maven'
 
       - name: Build with Buildozer      
+        runs-on: ubuntu-latest
         run: |
           pip3 install --user --upgrade buildozer Cython virtualenv
           export PATH=$PATH:~/.local/bin/
@@ -34,7 +35,7 @@ jobs:
           pip3 install --user --upgrade pyjnius 
           pip3 install cython==0.29.33
           buildozer android debug  
-        tty: true
+     
         
       - name: Upload artifacts
         uses: actions/upload-artifact@v4
