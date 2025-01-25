@@ -2,12 +2,10 @@
 name: Testing github workflows
 on : [push, pull_request]
 
-jobs: 
-      
-      Do_something: 
-      
-            runs-on: ubuntu-latest
-            steps: 
-            
-                  - name: Do Another thing
-                        run: echo "Oh yeah, im done"
+jobs:  
+  Do_something:  
+  
+    runs-on: ubuntu-latest 
+    steps:  
+      - name: Do Another thing 
+        run: echo "Oh yeah, im done"
