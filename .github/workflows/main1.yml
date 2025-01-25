@@ -24,13 +24,13 @@ jobs:
             sudo apt-get update 
             sudo apt-get install -y autoconf automake libtool
             
-      - name: Update Autoconf 
-        run: autoupdate
         
       - name: Build project 
         run: ./configure && make
   
-
+      - name: Update Autoconf 
+        run: autoupdate
+        
       - name: Build with Buildozer      
         run: |
           pip3 install --user --upgrade buildozer Cython virtualenv
