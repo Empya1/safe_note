@@ -4,7 +4,7 @@ on : [push, pull_request]
 
 jobs:  
   Do_something:  
-  
+    name : Build Android APK Using Buildozer
     runs-on: ubuntu-latest 
     steps:  
       - name: Do Another thing 
